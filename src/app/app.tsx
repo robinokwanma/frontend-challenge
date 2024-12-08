@@ -1,11 +1,12 @@
-import NxWelcome from './nx-welcome';
+import TodoList from '../components/TodoList';
 
-export function App() {
+
+const App = () => {
   return (
-    <div>
-      <NxWelcome title="my-todo-app" />
+    <div className="p-4 max-w-screen-sm mx-auto bg-blue-50 font-mono">
+      <TodoList /> 
     </div>
   );
-}
+};
 
 export default App;
